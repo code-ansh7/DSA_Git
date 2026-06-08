@@ -29,7 +29,7 @@ Find the largest element in an array.
 - Understood the importance of Time Complexity.
 - Learned how to analyze loops.
 - Practiced basic array traversal.
-- Solved introductory array problems.
+- Solved basic array problems.
 
 ## Status
 ✅ Day 1 Completed
