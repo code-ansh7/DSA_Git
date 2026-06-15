@@ -7,7 +7,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 ### Day 1 ✅
 
 * Time Complexity
-* O(1), O(n), O(n²), O(log n)
+* O(1), O(n), O(n²), O(log n) 
 * Array Sum
 * Array Minimum
 * Array Maximum
