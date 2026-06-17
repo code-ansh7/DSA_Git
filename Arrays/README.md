@@ -60,6 +60,13 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 * Traversal + Shifting Pattern
 * Rotation Formula (k % n)
 
+### Day 9 ✅
+- Reverse Array
+- Palindrome Array
+- Two Pointer Pattern
+- Swap Logic
+- Violation Concept
+
 ## Problems Solved
 
 1. Array Sum
@@ -83,7 +90,9 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 19. Left Rotate By One
 20. Right Rotate By One
 21. Left Rotate By N
- 
+22. Reverse Array
+23. Check Palindrome Array
+
 ## Patterns Learned
 
 ### Pattern 1 - Traversal
@@ -144,8 +153,14 @@ Used for:
 * Right Rotation
 * Rotate By N
 
+### Pattern 8 - Two Pointer
+Used for:
+- Reverse Array
+- Palindrome Array
+- Reverse String
+
 ## Total Stats
 
-* Days Completed: 8
-* Problems Solved: 21
-* Patterns Learned: 7
+* Days Completed: 9
+* Problems Solved: 23
+* Patterns Learned: 8
