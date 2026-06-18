@@ -67,6 +67,13 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Swap Logic
 - Violation Concept
 
+### Day 10 ✅
+- Frequency of One Element
+- Frequency of All Elements
+- Visited Logic
+- Continue Statement
+- Past Check Concept
+
 ## Problems Solved
 
 1. Array Sum
@@ -92,7 +99,9 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 21. Left Rotate By N
 22. Reverse Array
 23. Check Palindrome Array
-
+24. Frequency of One Element
+25. Frequency of All Elements
+    
 ## Patterns Learned
 
 ### Pattern 1 - Traversal
@@ -159,8 +168,14 @@ Used for:
 - Palindrome Array
 - Reverse String
 
+### Pattern 9 - Frequency Counting
+Used for:
+- Count Occurrences
+- Frequency of Elements
+- Duplicate Analysis
+
 ## Total Stats
 
-* Days Completed: 9
-* Problems Solved: 23
-* Patterns Learned: 8
+* Days Completed: 10
+* Problems Solved: 25
+* Patterns Learned: 9
