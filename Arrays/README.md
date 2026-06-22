@@ -105,6 +105,14 @@ Day 13 - Duplicate Elements
 - Dry Run Tables
 - LeetCode #217 Contains Duplicate
 
+### Day 14 ✅
+- Intersection of Two Arrays
+- Nested Loop Comparison
+- Result Array
+- Position Pointer
+- break Optimization
+- LeetCode #349 Connection
+
 ---
 
 ## Problems Solved
@@ -140,6 +148,7 @@ Day 13 - Duplicate Elements
 29. Missing Number (0 to N)
 30. Find Duplicate Elements
 31. Frequency Of Duplicate Elements
+32. Intersection of Two Arrays
 
 ---
 
@@ -247,6 +256,50 @@ Used For:
 - Majority Element
 - Frequency Count
 
+### Pattern 13 - Comparison Between Two Arrays
+
+Rule:
+
+Take one element from Array 1 and compare it with all elements of Array 2.
+
+Used For:
+- Intersection of Two Arrays
+- Common Element Detection
+- Pair Matching Problems
+
+Identification:
+
+Whenever the question contains two arrays and asks for common elements, matching elements, or pair checking, this pattern can be used.
+
+Time Complexity:
+
+O(n × m)
+
+### Pattern 14 - Result Array + Position Pointer
+
+Rule:
+
+Store valid elements in a new result array using a position pointer.
+
+Example:
+
+arr3[pos] = value;
+pos++;
+
+Used For:
+- Intersection of Arrays
+- Union of Arrays
+- Remove Duplicates
+- Move Zeroes
+
+Identification:
+
+Whenever a question asks to create a new array containing only valid elements, use a result array and a position pointer.
+
+Important:
+
+pos always points to the next empty position.
+
 ---
 
 ## Important Concepts Learned
@@ -276,14 +329,19 @@ Used For:
 - Found Variable
 - Dry Run Tables
 - Pattern Recognition
+- Result Array
+- Common Element Detection
+- Nested Loop Comparison
+- Position Pointer Revision
+- Multi Array Handling
 
 ---
 
 ## Total Stats
 
-- Days Completed: 13
-- Problems Solved: 31
-- Patterns Learned: 12
+- Days Completed: 14
+- Problems Solved: 32
+- Patterns Learned: 14
 
 ## Current Status
 
