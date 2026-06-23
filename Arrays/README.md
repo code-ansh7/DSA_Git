@@ -113,6 +113,13 @@ Day 13 - Duplicate Elements
 - break Optimization
 - LeetCode #349 Connection
 
+ ### Day 15 ✅
+- Union of Two Arrays
+- Result Array
+- Position Pointer
+- Duplicate Handling
+- Multi Array Handling
+
 ---
 
 ## Problems Solved
@@ -149,6 +156,7 @@ Day 13 - Duplicate Elements
 30. Find Duplicate Elements
 31. Frequency Of Duplicate Elements
 32. Intersection of Two Arrays
+33. Union of Two Arrays
 
 ---
 
@@ -300,6 +308,53 @@ Important:
 
 pos always points to the next empty position.
 
+
+### Pattern 15 - Search Before Insert
+
+Rule:
+
+Before storing an element in the result array, first check whether it already exists.
+
+Flow:
+
+Take Element
+↓
+Search In Result Array
+↓
+Already Present?
+↓          ↓
+Yes         No
+↓
+Skip
+
+            ↓
+         Store
+            ↓
+          pos++
+
+Used For:
+- Union of Two Arrays
+- Unique Elements
+- Remove Duplicates
+- Set Simulation
+
+Identification:
+
+Whenever the question says:
+- Unique Elements
+- No Duplicates
+- Store Only Once
+
+Use Search Before Insert Pattern.
+
+Important:
+
+Never insert an element without checking whether it already exists.
+
+Golden Line:
+
+Search First,
+Insert Later.
 ---
 
 ## Important Concepts Learned
@@ -334,14 +389,18 @@ pos always points to the next empty position.
 - Nested Loop Comparison
 - Position Pointer Revision
 - Multi Array Handling
+- Unique Element Detection
+- Duplicate Handling
+- Multi Array Handling
+- Result Array
 
 ---
 
 ## Total Stats
 
-- Days Completed: 14
-- Problems Solved: 32
-- Patterns Learned: 14
+- Days Completed: 15
+- Problems Solved: 33
+- Patterns Learned: 15
 
 ## Current Status
 
