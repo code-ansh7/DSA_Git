@@ -318,18 +318,30 @@ Before storing an element in the result array, first check whether it already ex
 Flow:
 
 Take Element
+
 ↓
+
 Search In Result Array
+
 ↓
+
 Already Present?
-↓          ↓
-Yes         No
+
+↓ 
+         ↓
+
+Yes      No
+
 ↓
+
 Skip
 
             ↓
+
          Store
+
             ↓
+            
           pos++
 
 Used For:
