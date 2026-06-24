@@ -120,6 +120,15 @@ Day 13 - Duplicate Elements
 - Duplicate Handling
 - Multi Array Handling
 
+### Day 16 ✅
+- Maximum Consecutive Ones
+- Current Count
+- Maximum Count
+- Streak Tracking
+- Condition Based Reset
+- Pattern 16 Introduction
+
+
 ---
 
 ## Problems Solved
@@ -157,6 +166,8 @@ Day 13 - Duplicate Elements
 31. Frequency Of Duplicate Elements
 32. Intersection of Two Arrays
 33. Union of Two Arrays
+34. Maximum Consecutive Ones
+35. Maximum Consecutive Zeroes
 
 ---
 
@@ -367,6 +378,31 @@ Golden Line:
 
 Search First,
 Insert Later.
+
+### Pattern 16 - Current Count + Maximum Count
+
+Rule:
+
+Track current streak and maintain the best streak found so far.
+
+Formula:
+
+count = Current Streak
+
+max = Best Streak
+
+Used For:
+- Maximum Consecutive Ones
+- Longest Streak Problems
+- Sliding Window Foundation
+
+Golden Line:
+
+Current changes frequently.
+
+Maximum changes only when a new record is created.
+
+
 ---
 
 ## Important Concepts Learned
@@ -405,14 +441,19 @@ Insert Later.
 - Duplicate Handling
 - Multi Array Handling
 - Result Array
+- Current Count
+- Maximum Count
+- Streak Tracking
+- Record Tracking
+- Condition Based Reset
 
 ---
 
 ## Total Stats
 
-- Days Completed: 15
-- Problems Solved: 33
-- Patterns Learned: 15
+- Days Completed: 16
+- Problems Solved: 35
+- Patterns Learned: 16
 
 ## Current Status
 
