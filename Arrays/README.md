@@ -19,21 +19,6 @@
 
 Arrays are the first and most fundamental topic in Data Structures and Algorithms.
 
-## Arrays Progress
-
-Day 1  - Traversal Basics
-Day 2  - Search Basics
-Day 3  - Max / Min
-Day 4  - Second Largest
-Day 5  - Sorted Array Check
-Day 6  - Move Zeroes
-Day 7  - Remove Duplicates
-Day 8  - Array Rotation
-Day 9  - Reverse & Palindrome
-Day 10 - Frequency Count
-Day 11 - Majority Element
-Day 12 - Missing Number
-Day 13 - Duplicate Elements
 
 ## Progress
 
