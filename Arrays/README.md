@@ -131,12 +131,12 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Pattern 16 Introduction
 
 Day 17 ✅
-Longest Consecutive Increasing Subarray
-Adjacent Comparison Revision
-Current Length
-Maximum Length
-Increasing Streak Tracking
-Self Debugging
+- Longest Consecutive Increasing Subarray
+- Adjacent Comparison Revision
+- Current Length
+- Maximum Length
+- Increasing Streak Tracking
+- Self Debugging
 ---
 
 ## Problems Solved
