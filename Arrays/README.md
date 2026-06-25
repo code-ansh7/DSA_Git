@@ -1,7 +1,5 @@
 # Arrays 🚀
 
-# Arrays 🚀
-
 > "Learn → Practice → Debug → Repeat"
 
 ---
