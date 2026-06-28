@@ -8,11 +8,11 @@
 
 | 📈 Metric | Value |
 |-----------|------:|
-| ✅ Days Completed | 19 |
-| 💻 Problems Solved | 39 |
-| 🧩 Patterns Learned | 19 |
+| ✅ Days Completed | 20 |
+| 💻 Problems Solved | 40 |
+| 🧩 Patterns Learned | 20 |
 | 🎯 Current Module | Arrays |
-| 🚀 Next Module | Sliding Window |
+| 🚀 Next Module | Sliding Window advanced |
 | 🔥 Difficulty | Easy → Medium |
 
 Arrays are the first and most fundamental topic in Data Structures and Algorithms.
@@ -151,6 +151,18 @@ Day 17 ✅
 - Length Formula
 - Break Optimization
 - Sliding Window Foundation
+
+### Day 20 ✅
+- Longest Subarray With Sum = K (Sliding Window)
+- Left Pointer
+- Right Pointer
+- Running Sum
+- Window Expansion
+- Window Shrinking
+- while vs if
+- Sliding Window Pattern
+
+
 ---
 
 ## Problems Solved
@@ -194,6 +206,7 @@ Day 17 ✅
 37. Single Number (Brute Force)
 38. Single Number (XOR)
 39. Longest Subarray With Sum = K (Brute Force)
+40. Longest Subarray With Sum = K (Sliding Window)
 
 ---
 
@@ -583,6 +596,83 @@ Observe the Range.
 
 ---
 
+### Pattern 20 - Sliding Window
+
+Rule:
+
+Maintain one continuous window.
+
+Expand using the Right Pointer.
+
+Shrink using the Left Pointer.
+
+Reuse the previous sum instead of recalculating.
+
+Flow:
+
+Right++
+
+↓
+
+sum += arr[right]
+
+↓
+
+sum > K ?
+
+↓
+
+sum -= arr[left]
+
+↓
+
+left++
+
+↓
+
+sum == K ?
+
+↓
+
+Update Answer
+
+Used For:
+
+- Longest Subarray
+- Smallest Subarray
+- Maximum Window
+- Minimum Window
+- Positive Number Subarray Problems
+
+Identification:
+
+Whenever the question contains:
+
+- Continuous Subarray
+- Positive Numbers
+- Longest
+- Smallest
+- Sum = K
+
+Think:
+
+Sliding Window
+
+Golden Lines:
+
+Don't Recalculate,
+Reuse Previous Sum.
+
+Expand from Right.
+
+Shrink from Left.
+
+Right Pointer Never Moves Backward.
+
+Left Pointer Never Moves Backward.
+
+---
+
 ## Important Concepts Learned
 
 - Time Complexity
@@ -643,16 +733,26 @@ Observe the Range.
 - Early Break Optimization
 - Variable Scope
 - Brute Force Range Traversal
+- Sliding Window
+- Left Pointer
+- Right Pointer
+- Running Sum
+- Window Expansion
+- Window Shrinking
+- Reuse Previous Sum
+- Variable Scope
+- while vs if
+- O(n) Optimization
 
 ---
 
 ## Total Stats
 
-- Days Completed: 19
-- Problems Solved: 39
-- Patterns Learned: 19
+- Days Completed: 20
+- Problems Solved: 40
+- Patterns Learned: 20
 
-## Current Status
+ ## Current Status
 
 ✅ Strong Array Foundation
 
@@ -662,12 +762,15 @@ Observe the Range.
 - Dry Run & Debugging
 - Brute Force Thinking
 - Running Sum
+- Sliding Window
+- Two Pointer Technique
 - Bit Manipulation Basics
 - Range Traversal
+- Algorithm Optimization
 
 🎯 Next Goal
 
-- Sliding Window
+- More Sliding Window Problems
 - Prefix Sum
 - Kadane's Algorithm
-- Placement-Oriented Medium Problems
+- Advanced Array Interview Questions
