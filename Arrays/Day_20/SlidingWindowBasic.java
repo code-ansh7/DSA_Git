@@ -1,8 +1,7 @@
-import java.util.*;
 public class SlidingWindowBasic {
     public static void main(String[] args) {
-        int[] arr = {2,1,3,2,1};
-        int k = 3;
+        int[] arr = {1,2,3,1,1,1,1,4,2,3};
+        int k = 6;
         int sum = 0;
         int left = 0;
         int maxLength = 0; // because k != window sum is possible
