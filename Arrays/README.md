@@ -8,9 +8,9 @@
 
 | 📈 Metric | Value |
 |-----------|------:|
-| ✅ Days Completed | 20 |
-| 💻 Problems Solved | 40 |
-| 🧩 Patterns Learned | 20 |
+| ✅ Days Completed | 21 |
+| 💻 Problems Solved | 41 |
+| 🧩 Patterns Learned | 21 |
 | 🎯 Current Module | Arrays |
 | 🚀 Next Module | Sliding Window advanced |
 | 🔥 Difficulty | Easy → Medium |
@@ -162,6 +162,15 @@ Day 17 ✅
 - while vs if
 - Sliding Window Pattern
 
+### Day 21 ✅
+- Maximum Sum Subarray
+- Fixed Size Sliding Window
+- Window Size Formula
+- Running Sum
+- Best Window Tracking
+- Edge Case Handling
+- Two Pointer Optimization
+
 
 ---
 
@@ -207,6 +216,7 @@ Day 17 ✅
 38. Single Number (XOR)
 39. Longest Subarray With Sum = K (Brute Force)
 40. Longest Subarray With Sum = K (Sliding Window)
+41. Maximum Sum Subarray (Fixed Size Sliding Window)
 
 ---
 
@@ -673,6 +683,88 @@ Left Pointer Never Moves Backward.
 
 ---
 
+### Pattern 21 - Fixed Size Sliding Window
+
+Rule:
+
+Maintain a window having exactly K elements.
+
+Expand using the Right Pointer.
+
+If the window becomes larger than K,
+
+remove one element from the Left.
+
+Flow:
+
+Right++
+
+↓
+
+sum += arr[right]
+
+↓
+
+Window Size > K ?
+
+↓
+
+Remove Left Element
+
+↓
+
+left++
+
+↓
+
+Window Size == K ?
+
+↓
+
+Update Maximum Sum
+
+↓
+
+Store Best Window
+
+Used For:
+
+- Maximum Sum Subarray
+- Minimum Sum Subarray
+- Average of K Elements
+- Fixed Length Window Problems
+- Rolling Window Calculations
+
+Identification:
+
+Whenever the question contains:
+
+- Exactly K Elements
+- Fixed Window
+- Continuous Subarray
+- Maximum / Minimum Sum
+
+Think:
+
+Fixed Size Sliding Window
+
+Golden Lines:
+
+Window Size Never Changes.
+
+Expand from Right.
+
+Shrink from Left.
+
+Remove One.
+
+Add One.
+
+Reuse Previous Sum.
+
+---
+
+
 ## Important Concepts Learned
 
 - Time Complexity
@@ -743,14 +835,22 @@ Left Pointer Never Moves Backward.
 - Variable Scope
 - while vs if
 - O(n) Optimization
+- Fixed Size Sliding Window
+- Window Size Formula
+- Running Sum
+- Best Window Tracking
+- Window Expansion
+- Window Shrinking
+- Edge Case Handling
+- Two Pointer Optimization
 
 ---
 
 ## Total Stats
 
-- Days Completed: 20
-- Problems Solved: 40
-- Patterns Learned: 20
+- Days Completed: 21
+- Problems Solved: 41
+- Patterns Learned: 21
 
  ## Current Status
 
@@ -762,15 +862,17 @@ Left Pointer Never Moves Backward.
 - Dry Run & Debugging
 - Brute Force Thinking
 - Running Sum
-- Sliding Window
+- Variable Sliding Window
+- Fixed Sliding Window
 - Two Pointer Technique
 - Bit Manipulation Basics
 - Range Traversal
 - Algorithm Optimization
+- Best Window Tracking
 
 🎯 Next Goal
 
-- More Sliding Window Problems
 - Prefix Sum
 - Kadane's Algorithm
+- Advanced Sliding Window
 - Advanced Array Interview Questions
