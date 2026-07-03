@@ -8,11 +8,11 @@
 
 | 📈 Metric | Value |
 |-----------|------:|
-| ✅ Days Completed | 23 |
-| 💻 Problems Solved | 43 |
-| 🧩 Patterns Learned | 23 |
+| ✅ Days Completed | 24 |
+| 💻 Problems Solved | 44 |
+| 🧩 Patterns Learned | 24 |
 | 🎯 Current Module | Arrays |
-| 🚀 Next Module | Prefix Sum Advanced |
+| 🚀 Next Module | Longest Consecutive Sequence |
 | 🔥 Difficulty | Easy → Medium |
 
 Arrays are the first and most fundamental topic in Data Structures and Algorithms.
@@ -188,6 +188,13 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - HashMap Search
 - Negative Numbers Handling
 
+### Day 24 ✅
+- Kadane's Algorithm
+- Maximum Sum Subarray
+- Running Sum
+- Greedy Thinking
+- Reset Concept
+- Best Window Tracking
 ---
 
 ## Problems Solved
@@ -235,6 +242,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 41. Maximum Sum Subarray (Fixed Size Sliding Window)
 42. Prefix Sum (Range Sum Query)
 43. Subarray Sum Equals K (Prefix Sum + HashMap)
+44. Maximum Sum Subarray (Kadane's Algorithm)
 
 ---
 
@@ -925,6 +933,60 @@ Subarray Found.
 
 ---
 
+### Pattern 24 - Kadane's Algorithm
+
+Rule:
+
+Never carry a negative running sum.
+
+If Current Sum becomes negative,
+
+start a fresh subarray.
+
+Used For:
+
+- Maximum Sum Subarray
+- Continuous Subarray
+- Greedy Problems
+
+Identification:
+
+Whenever the question contains
+
+- Maximum Sum
+- Largest Continuous Subarray
+- Maximum Subarray Sum
+
+Think
+
+Kadane's Algorithm.
+
+Golden Lines:
+
+Current Sum
+
+↓
+
+Compare
+
+↓
+
+Maximum Sum
+
+↓
+
+Current Sum < 0
+
+↓
+
+Reset
+
+↓
+
+Start Fresh
+
+---
+
 ## Important Concepts Learned
 
 - Time Complexity
@@ -1018,20 +1080,27 @@ Subarray Found.
 - Fast Searching
 - Prefix Difference
 - Negative Number Handling
+- Kadane's Algorithm
+- Current Sum
+- Maximum Sum
+- Running Sum
+- Reset Concept
+- Greedy Observation
+- Best Window Tracking
 
 ---
 
 ## Total Stats
 
-- Days Completed: 23
-- Problems Solved: 43
-- Patterns Learned: 23
+- Days Completed: 24
+- Problems Solved: 44
+- Patterns Learned: 24
 
 ---
 
 ## Current Status
 
-✅ Arrays Foundation Strong
+✅ Arrays Foundation Becoming Interview Ready
 
 🚀 Skills Developed
 
@@ -1043,14 +1112,13 @@ Subarray Found.
 - Fixed Sliding Window
 - Prefix Sum
 - Prefix Sum + HashMap
-- Running Prefix
-- Fast Searching
-- Query Optimization
-- Bit Manipulation Basics
+- Kadane's Algorithm
+- Greedy Thinking
+- Running Sum
+- Best Window Tracking
 
 🎯 Next Goal
 
-- Prefix Sum Advanced
-- Longest Subarray With Sum K
-- Kadane's Algorithm
-- More Medium Level Interview Questions
+- Longest Consecutive Sequence
+- HashSet
+- Advanced Array Problems
