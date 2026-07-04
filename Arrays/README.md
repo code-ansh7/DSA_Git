@@ -8,11 +8,11 @@
 
 | 📈 Metric | Value |
 |-----------|------:|
-| ✅ Days Completed | 24 |
-| 💻 Problems Solved | 44 |
-| 🧩 Patterns Learned | 24 |
+| ✅ Days Completed | 25 |
+| 💻 Problems Solved | 45 |
+| 🧩 Patterns Learned | 25 |
 | 🎯 Current Module | Arrays |
-| 🚀 Next Module | Longest Consecutive Sequence |
+| 🚀 Next Module | Rearrange Array by Sign |
 | 🔥 Difficulty | Easy → Medium |
 
 Arrays are the first and most fundamental topic in Data Structures and Algorithms.
@@ -194,7 +194,17 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Running Sum
 - Greedy Thinking
 - Reset Concept
-- Best Window Tracking
+- Best Window 
+
+### Day 25 ✅
+- Longest Consecutive Sequence
+- HashSet
+- Fast Searching
+- Starting Point Observation
+- Continue Statement
+- Best Sequence Tracking
+
+
 ---
 
 ## Problems Solved
@@ -243,6 +253,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 42. Prefix Sum (Range Sum Query)
 43. Subarray Sum Equals K (Prefix Sum + HashMap)
 44. Maximum Sum Subarray (Kadane's Algorithm)
+45. Longest Consecutive Sequence (HashSet)
 
 ---
 
@@ -987,6 +998,55 @@ Start Fresh
 
 ---
 
+### Pattern 25 - HashSet Search Pattern
+
+Rule:
+
+Whenever repeated searching is required,
+
+consider HashSet.
+
+Used For:
+
+- Existence Checking
+- Consecutive Sequence
+- Duplicate Detection
+- Fast Searching
+
+Identification:
+
+Whenever the question asks
+
+Does x exist?
+
+Think
+
+HashSet.
+
+Golden Lines:
+
+Starting Point
+
+↓
+
+Expand Sequence
+
+↓
+
+Update Maximum
+
+Search
+
+↓
+
+HashSet
+
+↓
+
+O(1)
+
+---
+
 ## Important Concepts Learned
 
 - Time Complexity
@@ -1087,38 +1147,45 @@ Start Fresh
 - Reset Concept
 - Greedy Observation
 - Best Window Tracking
+- HashSet
+- Fast Searching
+- Starting Point
+- Consecutive Sequence
+- Continue Statement
+- Best Sequence Tracking
+- Search Optimization
 
 ---
 
 ## Total Stats
 
-- Days Completed: 24
-- Problems Solved: 44
-- Patterns Learned: 24
+- Days Completed: 25
+- Problems Solved: 45
+- Patterns Learned: 25
 
 ---
 
 ## Current Status
 
-✅ Arrays Foundation Becoming Interview Ready
+✅ Arrays Foundation Becoming Strong
 
 🚀 Skills Developed
 
 - Pattern Recognition
 - Brute Force Thinking
-- Optimization Thinking
 - Two Pointer
 - Sliding Window
 - Fixed Sliding Window
 - Prefix Sum
 - Prefix Sum + HashMap
 - Kadane's Algorithm
-- Greedy Thinking
-- Running Sum
-- Best Window Tracking
+- HashSet
+- Search Optimization
+- Starting Point Observation
+- Best Sequence Tracking
 
 🎯 Next Goal
 
-- Longest Consecutive Sequence
-- HashSet
-- Advanced Array Problems
+- Rearrange Array by Sign
+- Two Pointer with Extra Array
+- More Medium Interview Problems
