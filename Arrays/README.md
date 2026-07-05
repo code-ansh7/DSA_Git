@@ -6,7 +6,7 @@
 
 # 📊 DSA Dashboard
 
-| 📈 Metric | Value |
+| 📈 Metric | Value | 
 |-----------|------:|
 | ✅ Days Completed | 25 |
 | 💻 Problems Solved | 45 |
