@@ -6,13 +6,13 @@
 
 # 📊 DSA Dashboard
 
-| 📈 Metric | Value | 
+| 📈 Metric | Value |
 |-----------|------:|
-| ✅ Days Completed | 25 |
-| 💻 Problems Solved | 45 |
-| 🧩 Patterns Learned | 25 |
+| ✅ Days Completed | 26 |
+| 💻 Problems Solved | 46 |
+| 🧩 Patterns Learned | 26 |
 | 🎯 Current Module | Arrays |
-| 🚀 Next Module | Rearrange Array by Sign |
+| 🚀 Next Module | Maximum Product Subarray |
 | 🔥 Difficulty | Easy → Medium |
 
 Arrays are the first and most fundamental topic in Data Structures and Algorithms.
@@ -204,6 +204,13 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Continue Statement
 - Best Sequence Tracking
 
+### Day 26 ✅
+- Rearrange Array by Sign
+- Alternate Placement
+- Even & Odd Index Strategy
+- Relative Order Preservation
+- Extra Array Pattern
+
 
 ---
 
@@ -254,6 +261,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 43. Subarray Sum Equals K (Prefix Sum + HashMap)
 44. Maximum Sum Subarray (Kadane's Algorithm)
 45. Longest Consecutive Sequence (HashSet)
+46. Rearrange Array by Sign
 
 ---
 
@@ -1047,6 +1055,44 @@ O(1)
 
 ---
 
+### Pattern 26 - Alternate Placement Pattern
+
+Rule:
+
+Maintain two indexes.
+
+Positive → Even Index
+
+Negative → Odd Index
+
+Used For
+
+- Rearranging Arrays
+- Alternate Placement
+- Positive Negative Problems
+
+Identification
+
+Question asks
+
+Positive
+
+Negative
+
+Positive
+
+Negative
+
+↓
+
+Think
+
+Even Index
+
+Odd Index
+
+---
+
 ## Important Concepts Learned
 
 - Time Complexity
@@ -1154,38 +1200,42 @@ O(1)
 - Continue Statement
 - Best Sequence Tracking
 - Search Optimization
+- Alternate Placement
+- Even Index Strategy
+- Odd Index Strategy
+- Relative Order Preservation
+- Extra Array
+- Two Position Variables
 
 ---
 
 ## Total Stats
 
-- Days Completed: 25
-- Problems Solved: 45
-- Patterns Learned: 25
+- Days Completed: 26
+- Problems Solved: 46
+- Patterns Learned: 26
 
 ---
 
-## Current Status
+ ## Current Status
 
 ✅ Arrays Foundation Becoming Strong
 
 🚀 Skills Developed
 
 - Pattern Recognition
-- Brute Force Thinking
 - Two Pointer
 - Sliding Window
-- Fixed Sliding Window
 - Prefix Sum
 - Prefix Sum + HashMap
 - Kadane's Algorithm
 - HashSet
+- Alternate Placement
 - Search Optimization
-- Starting Point Observation
-- Best Sequence Tracking
+- Relative Order Preservation
 
 🎯 Next Goal
 
-- Rearrange Array by Sign
-- Two Pointer with Extra Array
+- Maximum Product Subarray
 - More Medium Interview Problems
+- Complete Arrays Module
