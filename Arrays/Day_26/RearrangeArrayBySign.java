@@ -14,7 +14,7 @@ public class RearrangeArrayBySign{
                 negativeIndex += 2;
             }
         }
-        for(int i = 0; i < ans.length; i++){
+        for(int i = 0; i < ans.length; i++){ 
             System.out.print(ans[i] + " ");
         }
     } 
