@@ -1,4 +1,5 @@
 # Arrays 🚀
+Arrays are the first and most fundamental topic in Data Structures and Algorithms.
 
 > "Learn → Practice → Debug → Repeat"
 
@@ -8,14 +9,12 @@
 
 | 📈 Metric | Value |
 |-----------|------:|
-| ✅ Days Completed | 26 |
-| 💻 Problems Solved | 46 |
-| 🧩 Patterns Learned | 26 |
+| ✅ Days Completed | 27 |
+| 💻 Problems Solved | 47 |
+| 🧩 Patterns Learned | 27 |
 | 🎯 Current Module | Arrays |
-| 🚀 Next Module | Maximum Product Subarray |
-| 🔥 Difficulty | Easy → Medium |
-
-Arrays are the first and most fundamental topic in Data Structures and Algorithms.
+| 🚀 Next Module | Longest Subarray with Positive Product / Arrays Advanced |
+| 🔥 Difficulty | Easy → Medium+ |
 
 ---
 
@@ -211,6 +210,13 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Relative Order Preservation
 - Extra Array Pattern
 
+### Day 27 ✅
+- Maximum Product Subarray
+- Brute Force Approach
+- Prefix & Suffix Product
+- Interview Optimal (Current Max & Current Min)
+- Zero Reset Pattern
+- Product Traversal
 
 ---
 
@@ -262,6 +268,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 44. Maximum Sum Subarray (Kadane's Algorithm)
 45. Longest Consecutive Sequence (HashSet)
 46. Rearrange Array by Sign
+47. Maximum Product Subarray
 
 ---
 
@@ -1093,6 +1100,46 @@ Odd Index
 
 ---
 
+### Pattern 27 - Prefix & Suffix Product Pattern
+
+Rule
+
+Traverse from
+
+Left → Right
+
+Right → Left
+
+Track both products.
+
+Reset product when it becomes zero.
+
+Used For
+
+- Maximum Product Problems
+- Product Traversal
+- Prefix Product
+- Suffix Product
+- Zero Reset Pattern
+
+Identification
+
+Question contains
+
+Maximum Product
+
+↓
+
+Think
+
+Prefix Product
+
++
+
+Suffix Product
+
+---
+
 ## Important Concepts Learned
 
 - Time Complexity
@@ -1206,14 +1253,21 @@ Odd Index
 - Relative Order Preservation
 - Extra Array
 - Two Position Variables
+- Prefix Product
+- Suffix Product
+- Zero Reset Technique
+- Product Traversal
+- Current Maximum Product
+- Current Minimum Product
+- Three Approaches Comparison
 
 ---
 
 ## Total Stats
 
-- Days Completed: 26
-- Problems Solved: 46
-- Patterns Learned: 26
+- Days Completed: 27
+- Problems Solved: 47
+- Patterns Learned: 27
 
 ---
 
@@ -1233,9 +1287,9 @@ Odd Index
 - Alternate Placement
 - Search Optimization
 - Relative Order Preservation
+- Maximum Product Subarray
 
 🎯 Next Goal
 
-- Maximum Product Subarray
 - More Medium Interview Problems
 - Complete Arrays Module
