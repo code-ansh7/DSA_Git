@@ -9,11 +9,11 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 
 | 📈 Metric | Value |
 |-----------|------:|
-| ✅ Days Completed | 27 |
-| 💻 Problems Solved | 47 |
-| 🧩 Patterns Learned | 27 |
+| ✅ Days Completed | 28 |
+| 💻 Problems Solved | 48 |
+| 🧩 Patterns Learned | 28 |
 | 🎯 Current Module | Arrays |
-| 🚀 Next Module | Longest Subarray with Positive Product / Arrays Advanced |
+| 🚀 Next Module | Moore's Voting Algorithm (Optimal) |
 | 🔥 Difficulty | Easy → Medium+ |
 
 ---
@@ -218,6 +218,15 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Zero Reset Pattern
 - Product Traversal
 
+### Day 28 ✅
+- Majority Element (HashMap)
+- Frequency Counting Pattern
+- HashMap Revision
+- containsKey()
+- get()
+- put()
+- keySet()
+
 ---
 
 ## Problems Solved
@@ -269,6 +278,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 45. Longest Consecutive Sequence (HashSet)
 46. Rearrange Array by Sign
 47. Maximum Product Subarray
+48. Majority Element (HashMap Approach)
 
 ---
 
@@ -1140,6 +1150,39 @@ Suffix Product
 
 ---
 
+### Pattern 28 - Frequency Counting Pattern
+
+Rule
+
+Question contains
+
+Frequency
+
+↓
+
+Occurrences
+
+↓
+
+Count
+
+↓
+
+Majority
+
+Think
+
+HashMap
+
+Used For
+
+- Majority Element
+- Frequency Count
+- Character Frequency
+- Duplicate Count
+- Most Frequent Element
+
+---
 ## Important Concepts Learned
 
 - Time Complexity
@@ -1260,14 +1303,21 @@ Suffix Product
 - Current Maximum Product
 - Current Minimum Product
 - Three Approaches Comparison
+- HashMap Revision
+- Frequency Table
+- containsKey()
+- get()
+- put()
+- keySet()
+- Frequency Counting Pattern
 
 ---
 
 ## Total Stats
 
-- Days Completed: 27
-- Problems Solved: 47
-- Patterns Learned: 27
+- Days Completed: 28
+- Problems Solved: 48
+- Patterns Learned: 28
 
 ---
 
@@ -1288,8 +1338,10 @@ Suffix Product
 - Search Optimization
 - Relative Order Preservation
 - Maximum Product Subarray
+- Majority Element (HashaMap)
 
 🎯 Next Goal
-
+`
+-  Moore's Voting Algorithm (Optimal)
 - More Medium Interview Problems
 - Complete Arrays Module
