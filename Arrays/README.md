@@ -9,12 +9,12 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 
 | 📈 Metric | Value |
 |-----------|------:|
-| ✅ Days Completed | 28 |
-| 💻 Problems Solved | 48 |
-| 🧩 Patterns Learned | 28 |
+| ✅ Days Completed | 29 |
+| 💻 Problems Solved | 49 |
+| 🧩 Patterns Learned | 29 |
 | 🎯 Current Module | Arrays |
 | 🚀 Next Module | Moore's Voting Algorithm (Optimal) |
-| 🔥 Difficulty | Easy → Medium+ |
+| 🔥 Difficulty | Easy → Medium |
 
 ---
 
@@ -227,6 +227,12 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - put()
 - keySet()
 
+### Day 29 ✅
+- Best Time to Buy and Sell Stock
+- Minimum Element Tracking
+- Maximum Difference Pattern
+- Buy Day & Sell Day Tracking
+- Index vs Day Number
 ---
 
 ## Problems Solved
@@ -279,6 +285,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 46. Rearrange Array by Sign
 47. Maximum Product Subarray
 48. Majority Element (HashMap Approach)
+49. Best Time to Buy and Sell Stock
 
 ---
 
@@ -1183,6 +1190,32 @@ Used For
 - Most Frequent Element
 
 ---
+
+### Pattern 29 - Minimum Element + Maximum Difference
+
+Rule
+
+Track
+
+Minimum Value So Far
+
+↓
+
+Current Value - Minimum Value
+
+↓
+
+Update Maximum Difference
+
+Used In
+
+- Best Time to Buy and Sell Stock
+- Maximum Difference Problems
+- Future Profit Problems
+
+---
+
+
 ## Important Concepts Learned
 
 - Time Complexity
@@ -1310,14 +1343,20 @@ Used For
 - put()
 - keySet()
 - Frequency Counting Pattern
+- Minimum Price Tracking
+- Maximum Profit Tracking
+- Buy Before Sell Rule
+- Buy Day Tracking
+- Sell Day Tracking
+- Index vs Day Number
 
 ---
 
 ## Total Stats
 
-- Days Completed: 28
-- Problems Solved: 48
-- Patterns Learned: 28
+- Days Completed: 29
+- Problems Solved: 49
+- Patterns Learned: 29
 
 ---
 
@@ -1339,9 +1378,10 @@ Used For
 - Relative Order Preservation
 - Maximum Product Subarray
 - Majority Element (HashaMap)
+- Best Time to Buy and Sell Stock with Maximum Profit
 
 🎯 Next Goal
-`
+
 -  Moore's Voting Algorithm (Optimal)
 - More Medium Interview Problems
 - Complete Arrays Module
