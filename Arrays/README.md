@@ -9,12 +9,12 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 
 | 📈 Metric | Value |
 |-----------|------:|
-| ✅ Days Completed | 29 |
-| 💻 Problems Solved | 49 |
-| 🧩 Patterns Learned | 29 |
+| ✅ Days Completed | 30 |
+| 💻 Problems Solved | 50 |
+| 🧩 Patterns Learned | 30 |
 | 🎯 Current Module | Arrays |
-| 🚀 Next Module | Moore's Voting Algorithm (Optimal) |
-| 🔥 Difficulty | Easy → Medium |
+| 🚀 Next Module | Final Important Array Patterns |
+| 🔥 Difficulty | Medium |
 
 ---
 
@@ -233,6 +233,15 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 - Maximum Difference Pattern
 - Buy Day & Sell Day Tracking
 - Index vs Day Number
+
+### Day 30 ✅
+- Majority Element II
+- Moore's Voting Algorithm
+- Candidate Elimination Pattern
+- Cancellation Rule
+- Verification Pass
+- O(1) Space Optimization
+
 ---
 
 ## Problems Solved
@@ -286,6 +295,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 47. Maximum Product Subarray
 48. Majority Element (HashMap Approach)
 49. Best Time to Buy and Sell Stock
+50. Majority Element II (Moore's Voting Algorithm)
 
 ---
 
@@ -1215,6 +1225,31 @@ Used In
 
 ---
 
+### Pattern 30 - Candidate Elimination Pattern
+
+Rule
+
+Maximum possible majority candidates
+
+↓
+
+Track only required candidates
+
+↓
+
+Cancel different elements
+
+↓
+
+Verify final candidates
+
+Used In
+
+- Majority Element
+- Majority Element II
+- Voting Based Problems
+
+---
 
 ## Important Concepts Learned
 
@@ -1349,14 +1384,20 @@ Used In
 - Buy Day Tracking
 - Sell Day Tracking
 - Index vs Day Number
+- Moore's Voting Algorithm
+- Candidate Selection
+- Candidate Elimination
+- Cancellation Rule
+- Verification Pass
+- O(1) Space Optimization
 
 ---
 
 ## Total Stats
 
-- Days Completed: 29
-- Problems Solved: 49
-- Patterns Learned: 29
+- Days Completed: 30
+- Problems Solved: 50
+- Patterns Learned: 30
 
 ---
 
@@ -1379,9 +1420,9 @@ Used In
 - Maximum Product Subarray
 - Majority Element (HashaMap)
 - Best Time to Buy and Sell Stock with Maximum Profit
+-  Moore's Voting Algorithm (Optimal)
 
 🎯 Next Goal
 
--  Moore's Voting Algorithm (Optimal)
 - More Medium Interview Problems
 - Complete Arrays Module
