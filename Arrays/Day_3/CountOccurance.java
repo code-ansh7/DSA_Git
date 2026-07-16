@@ -12,7 +12,6 @@ public class CountOccurance {
         System.out.print("Enter element :");
         int target = sc.nextInt();
         int count = 0;
-        boolean found = false;
         int index = -1;
         for (int idx = 0; idx < arr.length; idx++) {
             if(arr[idx] == target){
