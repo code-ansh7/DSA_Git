@@ -15,6 +15,7 @@ Arrays are the first and most fundamental topic in Data Structures and Algorithm
 | 🎯 Current Module | Arrays |
 | 🚀 Next Module | Final Important Array Patterns |
 | 🔥 Difficulty | Medium |
+| 🎭 Status | ✅ Completed |
 
 ---
 
@@ -1398,7 +1399,7 @@ Used In
 - Days Completed: 30
 - Problems Solved: 50
 - Patterns Learned: 30
-
+- Status : Intermediate Array Completed
 ---
 
  ## Current Status
